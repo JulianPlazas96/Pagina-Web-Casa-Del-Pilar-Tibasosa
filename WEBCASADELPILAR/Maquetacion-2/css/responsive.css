@@ -69,3 +69,12 @@ body::before {
     #footer #browsers img { width: 38px; }
 }
 
+/* Título de la pantalla inicial en una sola línea */
+#loader h1 {
+    font-size: clamp(20px, 8vw, 50px);
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+
